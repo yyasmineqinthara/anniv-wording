@@ -1,0 +1,132 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F3E8EE; /* Warna pastel pink */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #6495ED; /* Warna pastel biru */
+}
+
+.header p {
+    font-size: 1rem;
+    color: #DDA0DD; /* Warna ungu pastel */
+}
+
+.wording p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form h2 {
+    font-size: 1.5rem;
+    color: #FF69B4; /* Warna pink lembut */
+    margin-bottom: 10px;
+}
+
+.form label {
+    font-weight: bold;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    border: 2px solid #6495ED;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6495ED;
+    color: #FFF;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4682B4; /* Biru yang sedikit lebih gelap */
+}
+
+.submitted-messages {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FFD1DC; /* Warna pink pastel */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submitted-messages h2 {
+    font-size: 1.8rem;
+    color: #FF69B4; /* Pink yang lebih cerah */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.submitted-messages p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.submitted-messages p strong {
+    color: #FF1493; /* Warna pink yang lebih gelap */
+}
+
+#clear-button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #FF69B4; /* Pink cerah */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#clear-button:hover {
+    background-color: #FF1493; /* Pink yang lebih gelap saat hover */
+}
+
